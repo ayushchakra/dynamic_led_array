@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "lp5860")(type "KiCad")(uri "${KIPRJMOD}/lp5860.kicad_sym")(options "")(descr ""))
+  (lib (name "rgb_led")(type "KiCad")(uri "${KIPRJMOD}/rgb_led.kicad_sym")(options "")(descr ""))
+)

@@ -1,0 +1,824 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 8826ed2e-75ac-40ef-8474-dbdd9d8f3f78)
+
+  (paper "A4")
+
+  (lib_symbols
+    (symbol "rgb_led:UHD111A-FKA-C3K23E1L3VG5ZB3Z3" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+      (property "Reference" "LED" (at 12.7 7.62 0)
+        (effects (font (size 1.524 1.524)))
+      )
+      (property "Value" "UHD111A-FKA-C3K23E1L3VG5ZB3Z3" (at 12.7 5.08 0)
+        (effects (font (size 1.524 1.524)))
+      )
+      (property "Footprint" "SMD4_UHD111A-FKA_CRW" (at 0 0 0)
+        (effects (font (size 1.27 1.27) italic) hide)
+      )
+      (property "Datasheet" "UHD111A-FKA-C3K23E1L3VG5ZB3Z3" (at 0 0 0)
+        (effects (font (size 1.27 1.27) italic) hide)
+      )
+      (property "ki_locked" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "ki_keywords" "UHD111A-FKA-C3K23E1L3VG5ZB3Z3" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "SMD4_UHD111A-FKA_CRW" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "UHD111A-FKA-C3K23E1L3VG5ZB3Z3_0_1"
+        (polyline
+          (pts
+            (xy 7.62 -5.08)
+            (xy 17.78 -5.08)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 7.62 -2.54)
+            (xy 8.89 -2.54)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 7.62 0)
+            (xy 8.89 0)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 7.62 2.54)
+            (xy 7.62 -5.08)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 8.255 -4.1275)
+            (xy 8.255 -3.81)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 8.255 -4.1275)
+            (xy 8.5725 -4.1275)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 8.255 1.5875)
+            (xy 8.255 1.27)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 8.255 1.5875)
+            (xy 8.5725 1.5875)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 8.89 -3.4925)
+            (xy 8.255 -4.1275)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 8.89 -3.175)
+            (xy 8.89 -1.905)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 8.89 -2.54)
+            (xy 10.16 -1.905)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 8.89 0)
+            (xy 10.16 -0.635)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 8.89 0.635)
+            (xy 8.89 -0.635)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 8.89 0.9525)
+            (xy 8.255 1.5875)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 9.2075 -4.1275)
+            (xy 9.2075 -3.81)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 9.2075 -4.1275)
+            (xy 9.525 -4.1275)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 9.2075 1.5875)
+            (xy 9.2075 1.27)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 9.2075 1.5875)
+            (xy 9.525 1.5875)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 9.8425 -3.4925)
+            (xy 9.2075 -4.1275)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 9.8425 0.9525)
+            (xy 9.2075 1.5875)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 10.16 -3.175)
+            (xy 8.89 -2.54)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 10.16 -2.54)
+            (xy 15.24 -2.54)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 10.16 -1.905)
+            (xy 10.16 -3.175)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 10.16 -0.635)
+            (xy 10.16 0.635)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 10.16 0)
+            (xy 17.78 0)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 10.16 0.635)
+            (xy 8.89 0)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 12.7 0)
+            (xy 12.7 -2.54)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 15.24 -3.175)
+            (xy 16.51 -2.54)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 15.24 -1.905)
+            (xy 15.24 -3.175)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 15.5575 -3.4925)
+            (xy 16.1925 -4.1275)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 16.1925 -4.1275)
+            (xy 15.875 -4.1275)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 16.1925 -4.1275)
+            (xy 16.1925 -3.81)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 16.51 -3.4925)
+            (xy 17.145 -4.1275)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 16.51 -3.175)
+            (xy 16.51 -1.905)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 16.51 -2.54)
+            (xy 15.24 -1.905)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 17.145 -4.1275)
+            (xy 16.8275 -4.1275)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 17.145 -4.1275)
+            (xy 17.145 -3.81)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 17.78 -5.08)
+            (xy 17.78 2.54)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 17.78 -2.54)
+            (xy 16.51 -2.54)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 17.78 2.54)
+            (xy 7.62 2.54)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (circle (center 12.7 -2.54) (radius 0.127)
+          (stroke (width 0.508) (type default))
+          (fill (type none))
+        )
+        (circle (center 12.7 0) (radius 0.127)
+          (stroke (width 0.508) (type default))
+          (fill (type none))
+        )
+        (pin unspecified line (at 0 0 0) (length 7.62)
+          (name "1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin unspecified line (at 0 -2.54 0) (length 7.62)
+          (name "2" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin unspecified line (at 25.4 -2.54 180) (length 7.62)
+          (name "3" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin unspecified line (at 25.4 0 180) (length 7.62)
+          (name "4" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+  )
+
+
+  (hierarchical_label "led_sink_0" (shape input) (at 93.98 45.72 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 0e999c0c-b921-4a6c-aff4-a58c0fc877e6)
+  )
+  (hierarchical_label "led_sink_10" (shape input) (at 93.98 97.79 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 110bec9d-de07-4908-a193-54c0ca04329f)
+  )
+  (hierarchical_label "led_sink_6" (shape input) (at 93.98 78.74 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 13f3c26c-c594-4eda-8843-c6b221ba1de4)
+  )
+  (hierarchical_label "led_sink_17" (shape input) (at 119.38 130.81 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 18b1898b-5a57-40eb-9164-7c5d615e5c60)
+  )
+  (hierarchical_label "led_sink_8" (shape input) (at 119.38 81.28 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 1df7c4f7-dad2-4a28-9548-4801fa254d95)
+  )
+  (hierarchical_label "led_source" (shape input) (at 119.38 128.27 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 2f4db1e0-eb95-468d-931f-f858f70e4e66)
+  )
+  (hierarchical_label "led_sink_11" (shape input) (at 119.38 97.79 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 46bb2324-91b5-460d-b63c-9507f55a06c4)
+  )
+  (hierarchical_label "led_sink_5" (shape input) (at 119.38 64.77 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 52bdfb83-9dd7-4554-a6a0-a04ada40c250)
+  )
+  (hierarchical_label "led_source" (shape input) (at 119.38 111.76 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 565fa2c7-fb8b-46be-b09a-274f68f8aae9)
+  )
+  (hierarchical_label "led_sink_3" (shape input) (at 93.98 62.23 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 5b210d73-2455-42fa-aef3-f30901be7d6b)
+  )
+  (hierarchical_label "led_source" (shape input) (at 119.38 95.25 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 6f7357b7-f67f-482d-8620-89116d04a9ac)
+  )
+  (hierarchical_label "led_sink_16" (shape input) (at 93.98 130.81 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 712aafb8-03ce-40c3-ba2e-8569f4ef0220)
+  )
+  (hierarchical_label "led_sink_14" (shape input) (at 119.38 114.3 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 8203c36a-7921-43bb-a38f-7b44d29f7013)
+  )
+  (hierarchical_label "led_sink_7" (shape input) (at 93.98 81.28 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 853e53aa-0a67-446d-9625-1b3b695a844d)
+  )
+  (hierarchical_label "led_source" (shape input) (at 119.38 45.72 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid a2aca065-7984-4996-87c0-9a289778c79c)
+  )
+  (hierarchical_label "led_sink_1" (shape input) (at 93.98 48.26 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid a4cdd21b-6a8f-447c-9adb-e8ce0efeca67)
+  )
+  (hierarchical_label "led_source" (shape input) (at 119.38 62.23 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid a6140eb0-4913-48d7-b269-7aed33acf980)
+  )
+  (hierarchical_label "led_sink_4" (shape input) (at 93.98 64.77 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid d67dbeaa-2e6b-4205-a0bb-888dc672b629)
+  )
+  (hierarchical_label "led_sink_13" (shape input) (at 93.98 114.3 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid dad0f536-320a-46a0-b2cf-b8889d9b52a9)
+  )
+  (hierarchical_label "led_sink_12" (shape input) (at 93.98 111.76 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid def95bd4-96a7-4ec6-98c8-790fe8cb6c9a)
+  )
+  (hierarchical_label "led_sink_9" (shape input) (at 93.98 95.25 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid df118b34-d721-4c01-a0a2-0e27d7bd2fde)
+  )
+  (hierarchical_label "led_sink_2" (shape input) (at 119.38 48.26 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid dfde6bd0-8f23-47f3-9c8e-e8da8cd3964e)
+  )
+  (hierarchical_label "led_sink_15" (shape input) (at 93.98 128.27 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid fa956566-c05b-4f8a-a795-85e954cc2bb9)
+  )
+  (hierarchical_label "led_source" (shape input) (at 119.38 78.74 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid fab280b8-9c08-4710-8c48-beb38dca7597)
+  )
+
+  (symbol (lib_id "rgb_led:UHD111A-FKA-C3K23E1L3VG5ZB3Z3") (at 93.98 128.27 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 0414b3f6-6d44-4f83-a2c5-f410e1a2c9ef)
+    (property "Reference" "LED0-5" (at 106.68 120.65 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Value" "UHD111A-FKA-C3K23E1L3VG5ZB3Z3" (at 106.68 123.19 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Footprint" "SMD4_UHD111A-FKA_CRW" (at 93.98 128.27 0)
+      (effects (font (size 1.27 1.27) italic) hide)
+    )
+    (property "Datasheet" "UHD111A-FKA-C3K23E1L3VG5ZB3Z3" (at 93.98 128.27 0)
+      (effects (font (size 1.27 1.27) italic) hide)
+    )
+    (pin "1" (uuid 51722d65-ca46-4c54-afab-c6b33f6db2a2))
+    (pin "3" (uuid 71a98d8d-c085-4210-9c56-239d0d17a958))
+    (pin "4" (uuid d8c42a67-7262-4f7d-9413-c78143345683))
+    (pin "2" (uuid 8c98d097-8f1c-4821-b2f7-2ee0b1db4241))
+    (instances
+      (project "lp5860_eval"
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/99163c72-f732-414a-8626-046a36cc01c5"
+          (reference "LED0-5") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/b087ff51-290f-425e-91de-4ef3d3b49aad"
+          (reference "LED10-5") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/145db41c-62af-4c1e-913d-7ec1dd43bf01"
+          (reference "LED1-5") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/b7ef02f8-2f34-4cc1-aa3b-3dc9bd1e0c64"
+          (reference "LED2-5") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/aa2c768b-e850-4014-a487-c3c99e0bd218"
+          (reference "LED3-5") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/9bff82e2-28d3-40fb-9989-42ac6d297556"
+          (reference "LED9-5") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/816696aa-c2a1-4dfc-9917-b9ad7e526ee3"
+          (reference "LED5-5") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/464b2f38-4086-4fc1-98b6-5703813a6924"
+          (reference "LED6-5") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/c73273ff-f158-4d9e-a581-2c57b34dc843"
+          (reference "LED8-5") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/26c59464-3b3f-479a-86ba-c9f0cb3ee16f"
+          (reference "LED7-5") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/403413fc-80c5-46d8-b63e-02139aecd7fa"
+          (reference "LED4-5") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "rgb_led:UHD111A-FKA-C3K23E1L3VG5ZB3Z3") (at 93.98 95.25 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 73d2207d-292f-4565-879f-11f796a7651a)
+    (property "Reference" "LED0-3" (at 106.68 86.36 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Value" "UHD111A-FKA-C3K23E1L3VG5ZB3Z3" (at 106.68 90.17 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Footprint" "SMD4_UHD111A-FKA_CRW" (at 93.98 95.25 0)
+      (effects (font (size 1.27 1.27) italic) hide)
+    )
+    (property "Datasheet" "UHD111A-FKA-C3K23E1L3VG5ZB3Z3" (at 93.98 95.25 0)
+      (effects (font (size 1.27 1.27) italic) hide)
+    )
+    (pin "1" (uuid 55916428-c009-4ad8-8217-4aeccb093012))
+    (pin "3" (uuid 6977afbc-5f80-4653-855d-eed95139f342))
+    (pin "4" (uuid 5cd5c585-a9a4-4674-bf55-43ec981b4523))
+    (pin "2" (uuid 6374f8e3-944d-4fba-ad2a-694f8f70f59a))
+    (instances
+      (project "lp5860_eval"
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/99163c72-f732-414a-8626-046a36cc01c5"
+          (reference "LED0-3") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/b087ff51-290f-425e-91de-4ef3d3b49aad"
+          (reference "LED10-3") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/145db41c-62af-4c1e-913d-7ec1dd43bf01"
+          (reference "LED1-3") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/b7ef02f8-2f34-4cc1-aa3b-3dc9bd1e0c64"
+          (reference "LED2-3") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/aa2c768b-e850-4014-a487-c3c99e0bd218"
+          (reference "LED3-3") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/9bff82e2-28d3-40fb-9989-42ac6d297556"
+          (reference "LED9-3") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/816696aa-c2a1-4dfc-9917-b9ad7e526ee3"
+          (reference "LED5-3") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/464b2f38-4086-4fc1-98b6-5703813a6924"
+          (reference "LED6-3") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/c73273ff-f158-4d9e-a581-2c57b34dc843"
+          (reference "LED8-3") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/26c59464-3b3f-479a-86ba-c9f0cb3ee16f"
+          (reference "LED7-3") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/403413fc-80c5-46d8-b63e-02139aecd7fa"
+          (reference "LED4-3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "rgb_led:UHD111A-FKA-C3K23E1L3VG5ZB3Z3") (at 93.98 45.72 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 924907f9-215a-452e-b8bf-9d81b133357c)
+    (property "Reference" "LED0-0" (at 106.68 35.56 0) (do_not_autoplace)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Value" "UHD111A-FKA-C3K23E1L3VG5ZB3Z3" (at 106.68 38.1 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Footprint" "SMD4_UHD111A-FKA_CRW" (at 93.98 45.72 0)
+      (effects (font (size 1.27 1.27) italic) hide)
+    )
+    (property "Datasheet" "UHD111A-FKA-C3K23E1L3VG5ZB3Z3" (at 93.98 45.72 0)
+      (effects (font (size 1.27 1.27) italic) hide)
+    )
+    (pin "1" (uuid 490793d5-6c84-44d3-9fff-782e6979ff7f))
+    (pin "3" (uuid 77204488-e04f-4863-8941-6e5e47caf649))
+    (pin "4" (uuid 0bada365-3f12-4eef-967b-69cc5e77dba4))
+    (pin "2" (uuid 1bd0d74d-6427-47c7-af3d-8aba6163e1a8))
+    (instances
+      (project "lp5860_eval"
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/99163c72-f732-414a-8626-046a36cc01c5"
+          (reference "LED0-0") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/b087ff51-290f-425e-91de-4ef3d3b49aad"
+          (reference "LED10-0") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/145db41c-62af-4c1e-913d-7ec1dd43bf01"
+          (reference "LED1-0") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/b7ef02f8-2f34-4cc1-aa3b-3dc9bd1e0c64"
+          (reference "LED2-0") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/aa2c768b-e850-4014-a487-c3c99e0bd218"
+          (reference "LED3-0") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/9bff82e2-28d3-40fb-9989-42ac6d297556"
+          (reference "LED9-0") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/816696aa-c2a1-4dfc-9917-b9ad7e526ee3"
+          (reference "LED5-0") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/464b2f38-4086-4fc1-98b6-5703813a6924"
+          (reference "LED6-0") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/c73273ff-f158-4d9e-a581-2c57b34dc843"
+          (reference "LED8-0") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/26c59464-3b3f-479a-86ba-c9f0cb3ee16f"
+          (reference "LED7-0") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/403413fc-80c5-46d8-b63e-02139aecd7fa"
+          (reference "LED4-0") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "rgb_led:UHD111A-FKA-C3K23E1L3VG5ZB3Z3") (at 93.98 111.76 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 955fd520-7e0f-4aa8-bc9a-355668a4d4a6)
+    (property "Reference" "LED0-4" (at 106.68 104.14 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Value" "UHD111A-FKA-C3K23E1L3VG5ZB3Z3" (at 106.68 106.68 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Footprint" "SMD4_UHD111A-FKA_CRW" (at 93.98 111.76 0)
+      (effects (font (size 1.27 1.27) italic) hide)
+    )
+    (property "Datasheet" "UHD111A-FKA-C3K23E1L3VG5ZB3Z3" (at 93.98 111.76 0)
+      (effects (font (size 1.27 1.27) italic) hide)
+    )
+    (pin "1" (uuid a5b1cff5-78d2-4c34-9922-36651f5eea67))
+    (pin "3" (uuid f5592691-b71f-4ff4-b40f-11626cd84943))
+    (pin "4" (uuid e3304337-9a00-410b-9856-2c176f01e14e))
+    (pin "2" (uuid 39a096e8-aacf-4520-bdca-3856e4756018))
+    (instances
+      (project "lp5860_eval"
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/99163c72-f732-414a-8626-046a36cc01c5"
+          (reference "LED0-4") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/b087ff51-290f-425e-91de-4ef3d3b49aad"
+          (reference "LED10-4") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/145db41c-62af-4c1e-913d-7ec1dd43bf01"
+          (reference "LED1-4") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/b7ef02f8-2f34-4cc1-aa3b-3dc9bd1e0c64"
+          (reference "LED2-4") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/aa2c768b-e850-4014-a487-c3c99e0bd218"
+          (reference "LED3-4") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/9bff82e2-28d3-40fb-9989-42ac6d297556"
+          (reference "LED9-4") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/816696aa-c2a1-4dfc-9917-b9ad7e526ee3"
+          (reference "LED5-4") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/464b2f38-4086-4fc1-98b6-5703813a6924"
+          (reference "LED6-4") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/c73273ff-f158-4d9e-a581-2c57b34dc843"
+          (reference "LED8-4") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/26c59464-3b3f-479a-86ba-c9f0cb3ee16f"
+          (reference "LED7-4") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/403413fc-80c5-46d8-b63e-02139aecd7fa"
+          (reference "LED4-4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "rgb_led:UHD111A-FKA-C3K23E1L3VG5ZB3Z3") (at 93.98 78.74 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid b6d42c86-6d27-4dcf-af30-5ab6825c48b7)
+    (property "Reference" "LED0-2" (at 106.68 71.12 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Value" "UHD111A-FKA-C3K23E1L3VG5ZB3Z3" (at 106.68 73.66 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Footprint" "SMD4_UHD111A-FKA_CRW" (at 93.98 78.74 0)
+      (effects (font (size 1.27 1.27) italic) hide)
+    )
+    (property "Datasheet" "UHD111A-FKA-C3K23E1L3VG5ZB3Z3" (at 93.98 78.74 0)
+      (effects (font (size 1.27 1.27) italic) hide)
+    )
+    (pin "1" (uuid fbcf3026-0839-42f4-9040-846be646ac1a))
+    (pin "3" (uuid 0e90abbf-73dd-4ab4-b252-59889fc076be))
+    (pin "4" (uuid f17ed0e3-0349-4e05-a175-747a594108a4))
+    (pin "2" (uuid 54b86501-a8be-4527-aa32-a2d29d324291))
+    (instances
+      (project "lp5860_eval"
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/99163c72-f732-414a-8626-046a36cc01c5"
+          (reference "LED0-2") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/b087ff51-290f-425e-91de-4ef3d3b49aad"
+          (reference "LED10-2") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/145db41c-62af-4c1e-913d-7ec1dd43bf01"
+          (reference "LED1-2") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/b7ef02f8-2f34-4cc1-aa3b-3dc9bd1e0c64"
+          (reference "LED2-2") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/aa2c768b-e850-4014-a487-c3c99e0bd218"
+          (reference "LED3-2") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/9bff82e2-28d3-40fb-9989-42ac6d297556"
+          (reference "LED9-2") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/816696aa-c2a1-4dfc-9917-b9ad7e526ee3"
+          (reference "LED5-2") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/464b2f38-4086-4fc1-98b6-5703813a6924"
+          (reference "LED6-2") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/c73273ff-f158-4d9e-a581-2c57b34dc843"
+          (reference "LED8-2") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/26c59464-3b3f-479a-86ba-c9f0cb3ee16f"
+          (reference "LED7-2") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/403413fc-80c5-46d8-b63e-02139aecd7fa"
+          (reference "LED4-2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "rgb_led:UHD111A-FKA-C3K23E1L3VG5ZB3Z3") (at 93.98 62.23 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid c3eba24f-4533-42c0-953f-3994e3c89088)
+    (property "Reference" "LED0-1" (at 106.68 54.61 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Value" "UHD111A-FKA-C3K23E1L3VG5ZB3Z3" (at 106.68 57.15 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Footprint" "SMD4_UHD111A-FKA_CRW" (at 93.98 62.23 0)
+      (effects (font (size 1.27 1.27) italic) hide)
+    )
+    (property "Datasheet" "UHD111A-FKA-C3K23E1L3VG5ZB3Z3" (at 93.98 62.23 0)
+      (effects (font (size 1.27 1.27) italic) hide)
+    )
+    (pin "1" (uuid 52977114-6e4b-419e-ac2b-28df28944f64))
+    (pin "3" (uuid bb9d98e0-5449-4928-b1e8-d2880ee57701))
+    (pin "4" (uuid 08d6678c-8cb6-49e3-94e2-fb8556fbe119))
+    (pin "2" (uuid 2ce7d536-c10e-47a4-9088-c420aa46cad5))
+    (instances
+      (project "lp5860_eval"
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/99163c72-f732-414a-8626-046a36cc01c5"
+          (reference "LED0-1") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/b087ff51-290f-425e-91de-4ef3d3b49aad"
+          (reference "LED10-1") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/145db41c-62af-4c1e-913d-7ec1dd43bf01"
+          (reference "LED1-1") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/b7ef02f8-2f34-4cc1-aa3b-3dc9bd1e0c64"
+          (reference "LED2-1") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/aa2c768b-e850-4014-a487-c3c99e0bd218"
+          (reference "LED3-1") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/9bff82e2-28d3-40fb-9989-42ac6d297556"
+          (reference "LED9-1") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/816696aa-c2a1-4dfc-9917-b9ad7e526ee3"
+          (reference "LED5-1") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/464b2f38-4086-4fc1-98b6-5703813a6924"
+          (reference "LED6-1") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/c73273ff-f158-4d9e-a581-2c57b34dc843"
+          (reference "LED8-1") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/26c59464-3b3f-479a-86ba-c9f0cb3ee16f"
+          (reference "LED7-1") (unit 1)
+        )
+        (path "/1672c10a-851e-4980-a327-c283e8f38abc/d021db7e-65e6-47ec-82f4-6b66f241f103/403413fc-80c5-46d8-b63e-02139aecd7fa"
+          (reference "LED4-1") (unit 1)
+        )
+      )
+    )
+  )
+)
