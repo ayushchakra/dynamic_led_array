@@ -1,0 +1,7 @@
+outstanding questions:
+breadboard size? might not matter if all pins on one side
+
+
+
+from mcu pins:
+addr0, add1, vio_en, sda, scl, vsync

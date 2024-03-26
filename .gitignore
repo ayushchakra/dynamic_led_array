@@ -1,4 +1,5 @@
 **/.DS_Store
 **/#auto_saved_files#
 *.kicad_sch.lck
+*.kicad_pcb.lck
 **/*-backups/
